@@ -1,0 +1,127 @@
+%% This is file `DEMO-TUDaExercise.tex' version 2.10 (2020/04/26),
+%% it is part of
+%% TUDa-CI -- Corporate Design for TU Darmstadt
+%% ----------------------------------------------------------------------------
+%%
+%%  Copyright (C) 2018--2020 by Marei Peischl <marei@peitex.de>
+%%
+%% ============================================================================
+%% This work may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License, either version 1.3c
+%% of this license or (at your option) any later version.
+%% The latest version of this license is in
+%% http://www.latex-project.org/lppl.txt
+%% and version 1.3c or later is part of all distributions of LaTeX
+%% version 2008/05/04 or later.
+%%
+%% This work has the LPPL maintenance status `maintained'.
+%%
+%% The Current Maintainers of this work are
+%%   Marei Peischl <tuda-ci@peitex.de>
+%%   Markus Lazanowski <latex@ce.tu-darmstadt.de>
+%%
+%% The development respository can be found at
+%% https://github.com/tudace/tuda_latex_templates
+%% Please use the issue tracker for feedback!
+%%
+%% ============================================================================
+%%
+% !TeX program = lualatex
+%%
+
+%=========================================================
+
+% Here you can choose to compile with or without solutions.
+% However, this definition is ignored if you use any
+% command from the `Makefile`.
+%\providecommand{\withSol}{\iftrue}
+
+%=========================================================
+
+
+\documentclass[
+	colorback=false,
+	solution=true,
+	]{tudaexercise}
+
+\usepackage[english, main=english]{babel}
+\usepackage[babel]{csquotes}
+\usepackage{amsmath}
+\usepackage{booktabs}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+% Zusätliche Pakete
+\usepackage{comment}
+\newcommand{\urlc}[1]{\color{cyan}\url{#1}\color{black}}
+\newcommand{\hrefc}[2]{\color{cyan}\href{#1}{#2}\color{black}}
+\newcommand{\prog}[1]{\textit{#1}}
+\newcommand{\concept}[1]{\textbf{#1}}
+\newcommand{\codesym}{\textbf{\texttt{</>}}}
+\usepackage{cite}
+\usepackage{dirtree}
+\usepackage{amssymb}
+\usepackage{tikz}
+\usepackage{textcomp}
+\usepackage{url}
+\usepackage[newenum]{paralist}
+\usepackage{bbding}
+\usepackage{float}
+\usepackage{listings}
+
+% The (in)famous algorithm package
+\usepackage[vlined,linesnumbered]{algorithm2e}
+\SetArgSty{textnormal}
+\SetCommentSty{textit}
+\usepackage{wrapfig}
+\usepackage{nicefrac}
+\usepackage{multicol}
+\usepackage{multirow}
+
+% Write `B+-tree' consistently throughout the lecture
+\newcommand{\Btree}{B\raisebox{.4em}{\textsmaller{+}}-tree}
+\newcommand{\Btrees}{B\raisebox{.4em}{\textsmaller{+}}-trees}
+\newcommand{\BTree}{B\raisebox{.4em}{\textsmaller{+}}-Tree}
+\newcommand{\BTrees}{B\raisebox{.4em}{\textsmaller{+}}-Trees}
+\newcommand{\BBaum}{B\raisebox{.4em}{\textsmaller{+}}-Baum}
+\newcommand{\BBaums}{B\raisebox{.4em}{\textsmaller{+}}-Baums}
+\newcommand{\BBaeume}{B\raisebox{.4em}{\textsmaller{+}}-Bäume}
+\newcommand{\R}[0]{\mathds{R}} % real numbers
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+%\usepackage{biblatex}
+%=========================================================
+
+\def\homework{3}
+\def\homeworkVer{1}
+\def\homeworkSolVer{1}
+%=========================================================
+
+%Formatierungen für Beispiele in diesem Dokument. Im Allgemeinen nicht notwendig!
+\let\file\texttt
+\let\code\texttt
+\let\pck\textsf
+\let\cls\textsf
+\let\tbs\textbackslash
+
+\ConfigureHeadline{
+	headline={title-name-id}
+}
+
+%compatbilitx
+\let\unit\relax
+
+\begin{document}
+
+\title{Statistical Machine Learning Homework 3}
+\author{Patrick Nowak\\Rinor Cakaj}
+\term{Sommersemester 2020}
+\date{\today}
+\sheetnumber{\homework}
+\setcounter{section}{\homework}
+
+\maketitle
+
+\input{e3}
+%\bibliography{library}{}
+%\bibliographystyle{plain}
+
+\end{document}
