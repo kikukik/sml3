@@ -111,6 +111,54 @@ Calling the threed function gives us the following solution:
 	\end{tabular}
 \end{table}
 \end{subtask}
+\begin{subtask}
+	\begin{enumerate}
+		\item
+	Whitening is a technique to remove redundancies in our data. This is done by analyzing correlations between features and their variances. The covariance matrix $\Sigma$ is very important in doing so, because if $\Sigma$ is an identity matrix, we have no correlation between the features at all and every feature has normed variance of 1 which is the desired case for running stable algorithms on the data. In this case we call the dataset $\tilde{x}$ whitened. Because the resulting data is not unique, we can think of a somewhat 'best' transformation that still fits the requirements. The practical difference between PCA and ZCA lies in the interpretation of 'best' in the last sentence. Both are interested in normalizing the covariance as described, the PCA does this while also compressing the data. On the other hand, the ZCA is the better approach if we want to keep the new data pretty close to the original. We get it pretty easy from the PCA by multiplying an orthogonal matrix R from the left. The result still has the identity as covariance matrix. Choosing R as the matrix of eigenvectors from $\Sigma$ will turn out to be optimal. We then call the matrix product $R\cdot\tilde{x}$ ZCA-whitened. Literature isn't clear about normalizing w.r.t. the means though. In 2. we give the idea of computation after normalization w.r.t. the mean, but e.g. brunner ( see \text{"https://cbrnr.github.io/2018/12/17/whitening-pca-zca/"}) does not normalize the means, but still gets effective results.
+	\item
+	First of all we need to normalize every attribute of x, s.t. it has mean 0. We therefore estimate the mean by the sample mean $\hat{x}$:
+	\begin{align*}
+	x^* = x - \hat{x}=x-\frac{1}{n}\sum_{i=1}^n x_i
+	\end{align*}
+	We compute the covariance matrix via
+	\begin{align*}
+	\Sigma=\frac{1}{n}\sum_{i=1}^{n} (x-\hat{x})^T (x-\hat{x})=\frac{1}{n}\sum_{i=1}{n} x^{*T} x^{*}
+	\end{align*}
+	and calculate an singular value decomposition $\Sigma=USV$, because we need the eigenvalues(now stored in S) and the eigenvectors (now stored in the columns of U). With this all done, we can compute the PCA whitened data:
+	\begin{align*}
+	x^{\text{PCAw}}=diag((diag(S)+\epsilon)^{-0.5})\cdot U^T\cdot x*
+	\end{align*}
+	where $diag$ extracts the diagonal of a matrix, or constructs a diagonal matrix given a vector.
+	Finally, we can derive the ZCA via:
+	\begin{align}\label{zca}
+	x^{\text{ZCAw}}=U\cdot x^{\text{PCAw}}
+	\end{align}
+	\item
+	If we are given a new data example x, it will change the mean and therefore all parameters. In case we got big data we can assume that the single data point x has low impact on the mean and the computed covariance matrix. Then it is sufficient to use \ref{zca} for the single observation vector x and append the resulting column to $x^{\text{ZCAw}}$. \\
+	\item The following pyhton implementation follows the approach without normalization like presented in the webpage from brunner:
+	\begin{lstlisting}[language=python]
+def zca_brunner(x,epsilon):
+	if x.shape[0]>x.shape[1]:
+		raise
+	evals,evecs=np.linalg.eigh(np.cov(x))
+	evals=evals+epsilon
+	z = evecs @ np.diag(evals**(-1/2)) @ evecs.T @ x
+	return z
+	\end{lstlisting}
+	Alternatively, we could normalize with the mean and get
+	\begin{lstlisting}[language=python]
+def zca_whitening(epsilon):
+	pre_iris = iris[:,0:4]
+	mean = pre_iris.mean(0)
+	xstern = (pre_iris - mean).T
+	cov = np.cov(xstern)
+	eigenvalues, eigenvectors = np.linalg.eigh(cov)
+	xPCAwhite=np.diag(1./np.sqrt(eigenvalues+epsilon))@eigenvectors.T@xstern
+	xZCAwhite=eigenvectors@xPCAwhite
+	return xZCAwhite
+	\end{lstlisting}
+	\end{enumerate}
+\end{subtask}
 \end{task}
 
 

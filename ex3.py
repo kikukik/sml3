@@ -28,7 +28,6 @@ print ("eigvals:", eigvalues)
 print("eigenvectors(spalten):",eigvectors)
 e1=eigvectors[:,0]
 print("utCU:",e1.T@cov@e1)
-
 def sk():   
     pca=PCA(n_components=4)
     pca.fit(iris[:,:-1])
@@ -58,7 +57,6 @@ def rmse(x):
     return np.sqrt(np.mean(x**2))
 
 def get_xn_schlange(mean,points,var,vecs,n):
-    s=0
     points=np.add(points,-np.mean(points,axis=0))
     print("lv:",len(vecs))
     for i in range(n):

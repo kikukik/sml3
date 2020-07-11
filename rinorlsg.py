@@ -55,6 +55,23 @@ def threed(eigenvalues, eigenvectors, normalized_data, pre_iris, mean, var):
     print("lsg:", lsg*100)
     return 
 
+def zca_whitening(epsilon):
+    pre_iris = iris[:,0:4]
+    mean = pre_iris.mean(0)
+    xstern = (pre_iris - mean).T
+    cov = np.cov(xstern)
+    eigenvalues, eigenvectors = np.linalg.eigh(cov)
+    xPCAwhite=np.diag(1./np.sqrt(eigenvalues+epsilon))@eigenvectors.T@xstern
+    xZCAwhite=eigenvectors@xPCAwhite
+    return xZCAwhite
+def zca_brunner(x,epsilon):
+    if x.shape[0]>x.shape[1]:
+        raise
+    evals,evecs=np.linalg.eigh(np.cov(x))
+    evals=evals+epsilon
+    z = evecs @ np.diag(evals**(-1/2)) @ evecs.T @ x
+    return z
+    
 if __name__ == "__main__":
     #3a
     n = len(iris)
@@ -74,3 +91,8 @@ if __name__ == "__main__":
     
     #3d
     threed(eigenvalues, eigenvectors, normalized_data, pre_iris, mean, standard_deviation)
+    #de
+    epsilon=1*10**(-5)
+    print(epsilon)
+    print(zca_brunner(pre_iris.T,epsilon)[2,2])
+    print(zca_whitening(epsilon)[2,2])

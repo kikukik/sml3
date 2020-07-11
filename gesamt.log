@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (MiKTeX 2.9.7440 64-bit)  (format=lualatex 2020.6.29)  10 JUL 2020 12:59
+This is LuaHBTeX, Version 1.12.0 (MiKTeX 2.9.7440 64-bit)  (format=lualatex 2020.6.29)  11 JUL 2020 12:47
  restricted system commands enabled.
 **gesamt.tex
 (./gesamt.tex
@@ -2236,7 +2236,12 @@ File: 2dprojectionPCA.png Graphic file (type png)
 <use 2dprojectionPCA.png>
 Package luatex.def Info: 2dprojectionPCA.png  used on input line 62.
 (luatex.def)             Requested size: 371.38658pt x 248.92938pt.
-[2<./bar.png>] [3<./2dprojectionPCA.png>]) [4]
+[2<./bar.png>] [3<./2dprojectionPCA.png>] [4]
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
+
+ []
+
+) [5]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 127.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 127.
  (./gesamt.aux)
@@ -2248,14 +2253,14 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 127.
 )
 
 Here is how much of LuaTeX's memory you used:
- 35370 strings out of 480885
+ 35413 strings out of 480885
  100000,1648299 words of node,token memory allocated
- 2726 words of node memory still in use:
-   62 hlist, 6 vlist, 33 rule, 11 disc, 7 local_par, 5 dir, 36 glue, 27 kern, 7 
-penalty, 2 sub_mlist, 79 glyph, 51 attribute, 80 glue_spec, 36 attribute_list, 2
+ 2715 words of node memory still in use:
+   62 hlist, 6 vlist, 33 rule, 11 disc, 7 local_par, 4 dir, 36 glue, 27 kern, 7 
+penalty, 2 sub_mlist, 79 glyph, 49 attribute, 80 glue_spec, 35 attribute_list, 2
  write, 4 pdf_colorstack nodes
-   avail lists: 1:2,2:2307,3:168,4:15,5:438,6:80,7:2747,8:33,9:1192,10:5,11:92
- 51736 multiletter control sequences out of 65536+200000
+   avail lists: 1:2,2:2310,3:168,4:19,5:636,6:80,7:4121,8:53,9:1192,10:9,11:189
+ 51754 multiletter control sequences out of 65536+200000
  126 fonts using 18603683 bytes
  79i,21n,124p,10127b,1459s stack positions out of 5000i,500n,10000p,200000b,50000s
 <//?/c:/users/no-pa/appdata/roaming/miktex/2.9/fonts/opentype/public/xcharter/xc
@@ -2264,14 +2269,16 @@ blic/xcharter/xcharter-italic.otf><//?/c:/users/no-pa/appdata/roaming/miktex/2.9
 /fonts/opentype/google/roboto/roboto-regular.otf><//?/c:/users/no-pa/appdata/roa
 ming/miktex/2.9/fonts/opentype/public/xcharter/xcharter-roman.otf><//?/c:/users/
 no-pa/appdata/roaming/miktex/2.9/fonts/opentype/google/roboto/roboto-bold.otf><C
-:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program
- Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmsy10.pfb>
-Output written on gesamt.pdf (4 pages, 640197 bytes).
+:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program
+ Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmsy7.pfb>
+Output written on gesamt.pdf (5 pages, 669037 bytes).
 
-PDF statistics: 174 PDF objects out of 1000 (max. 8388607)
- 70 named destinations out of 1000 (max. 131072)
- 56 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 215 PDF objects out of 1000 (max. 8388607)
+ 95 named destinations out of 1000 (max. 131072)
+ 64 words of extra memory for PDF output out of 10000 (max. 100000000)
 
