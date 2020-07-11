@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (MiKTeX 2.9.7440 64-bit)  (format=lualatex 2020.6.29)  11 JUL 2020 12:47
+This is LuaHBTeX, Version 1.12.0 (MiKTeX 2.9.7440 64-bit)  (format=lualatex 2020.6.29)  11 JUL 2020 12:59
  restricted system commands enabled.
 **gesamt.tex
 (./gesamt.tex
@@ -1995,34 +1995,34 @@ Package csquotes Info: ... found 'babel' package.
 (./gesamt.aux)
 \openout1 = gesamt.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 112.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 113.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 11
-2.
+3.
  ("C:/Program Files/MiKTeX 2.9/tex/latex/base/ts1cmr.fd"
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-Package scrbase Info: activating english \contentsname on input line 112.
-Package scrbase Info: activating english \listfigurename on input line 112.
-Package scrbase Info: activating english \listtablename on input line 112.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+Package scrbase Info: activating english \contentsname on input line 113.
+Package scrbase Info: activating english \listfigurename on input line 113.
+Package scrbase Info: activating english \listtablename on input line 113.
 
 ("C:/Program Files/MiKTeX 2.9/tex/context/base/mkii/supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -2048,60 +2048,60 @@ Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 
 \symlegacymaths=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 112.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 112.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 112.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 112.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 112.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 112.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 112.
-LaTeX Font Info:    Redeclaring math accent \check on input line 112.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 112.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 112.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 112.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 112.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 112.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 112.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 112.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 112.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 112.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 112.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 112.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 112.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 112.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 112.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 112.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 112.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 113.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 113.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 113.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 113.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 113.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 113.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 113.
+LaTeX Font Info:    Redeclaring math accent \check on input line 113.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 113.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 113.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 113.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 113.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 113.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 113.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 113.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 113.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 113.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 113.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 113.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 113.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 113.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 113.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 113.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 113.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 112.
+(Font)              `operators' in the math version `normal' on input line 113.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/XCharter(0)/m/n on input line 112.
+(Font)                  OT1/cmr/m/n --> TU/XCharter(0)/m/n on input line 113.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 112.
+(Font)              `operators' in the math version `bold' on input line 113.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/XCharter(0)/m/n on input line 112.
+(Font)                  OT1/cmr/bx/n --> TU/XCharter(0)/m/n on input line 113.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  TU/XCharter(0)/m/n --> TU/XCharter(0)/m/n on input line 
-112.
+113.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/XCharter(0)/m/it on input line 112.
+(Font)                  OT1/cmr/m/it --> TU/XCharter(0)/m/it on input line 113.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/XCharter(0)/b/n on input line 112.
+(Font)                  OT1/cmr/bx/n --> TU/XCharter(0)/b/n on input line 113.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/Roboto(0)/m/n on input line 112.
+(Font)                  OT1/cmss/m/n --> TU/Roboto(0)/m/n on input line 113.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/RobotoMono(0)/m/n on input line 112.
+(Font)                  OT1/cmtt/m/n --> TU/RobotoMono(0)/m/n on input line 113.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  TU/XCharter(0)/m/n --> TU/XCharter(0)/b/n on input line 
-112.
+113.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/XCharter(0)/b/it on input line 112.
+(Font)                  OT1/cmr/bx/it --> TU/XCharter(0)/b/it on input line 113.
 
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/Roboto(0)/b/n on input line 112.
+(Font)                  OT1/cmss/bx/n --> TU/Roboto(0)/b/n on input line 113.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/RobotoMono(0)/b/n on input line 112.
+(Font)                  OT1/cmtt/m/n --> TU/RobotoMono(0)/b/n on input line 113.
 
 
 *geometry* driver: auto-detecting
@@ -2139,7 +2139,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box128
-Package hyperref Info: Link coloring OFF on input line 112.
+Package hyperref Info: Link coloring OFF on input line 113.
 ("C:/Program Files/MiKTeX 2.9/tex/latex/hyperref/nameref.sty"
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -2152,9 +2152,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count355
 )
-LaTeX Info: Redefining \ref on input line 112.
-LaTeX Info: Redefining \pageref on input line 112.
-LaTeX Info: Redefining \nameref on input line 112.
+LaTeX Info: Redefining \ref on input line 113.
+LaTeX Info: Redefining \pageref on input line 113.
+LaTeX Info: Redefining \nameref on input line 113.
  (./gesamt.out) (./gesamt.out)
 \@outlinefile=\write5
 
@@ -2166,7 +2166,7 @@ Class scrartcl Info: loading recommended package `bookmark'.
 (scrartcl)           `bookmarkpackage=false' before \begin{document} and
 (scrartcl)           you can avoid this message adding:
 (scrartcl)             \usepackage{bookmark}
-(scrartcl)           before \begin{document} on input line 112.
+(scrartcl)           before \begin{document} on input line 113.
 
 (C:/Users/No-Pa/AppData/Roaming/MiKTeX/2.9/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2019/12/03 v1.28 PDF bookmarks (HO)
@@ -2178,91 +2178,186 @@ Package auxhook Info: \AddLineBeginMainAux comes a little late,
  168.
 \BKM@id=\count356
 ))
-Package scrbase Info: activating english \sheetname on input line 112.
-Package scrbase Info: activating english \taskname on input line 112.
-Package scrbase Info: activating english \solutionname on input line 112.
-Package scrbase Info: activating english \StudentNamename on input line 112.
-Package scrbase Info: activating english \StudentIDname on input line 112.
-Package scrbase Info: activating english \PointName on input line 112.
-Package scrbase Info: activating english \PointsName on input line 112.
+Package scrbase Info: activating english \sheetname on input line 113.
+Package scrbase Info: activating english \taskname on input line 113.
+Package scrbase Info: activating english \solutionname on input line 113.
+Package scrbase Info: activating english \StudentNamename on input line 113.
+Package scrbase Info: activating english \StudentIDname on input line 113.
+Package scrbase Info: activating english \PointName on input line 113.
+Package scrbase Info: activating english \PointsName on input line 113.
 
 ABD: EveryShipout initializing macros
 \c@lstlisting=\count357
 LaTeX Font Info:    Font shape `TU/Roboto(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 122.
+(Font)              scaled to size 10.0pt on input line 123.
 LaTeX Font Info:    Font shape `TU/Roboto(0)/b/n' will be
-(Font)              scaled to size 10.0pt on input line 122.
+(Font)              scaled to size 10.0pt on input line 123.
 LaTeX Font Info:    Font shape `TU/Roboto(0)/b/n' will be
-(Font)              scaled to size 20.74pt on input line 122.
+(Font)              scaled to size 20.74pt on input line 123.
 <tuda_logo.pdf, id=6, 156.48964pt x 62.59586pt>
 File: tuda_logo.pdf Graphic file (type pdf)
 <use tuda_logo.pdf>
-Package luatex.def Info: tuda_logo.pdf  used on input line 122.
+Package luatex.def Info: tuda_logo.pdf  used on input line 123.
 (luatex.def)             Requested size: 156.49402pt x 62.59605pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 122.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 123.
 
 
 ("C:/Program Files/MiKTeX 2.9/tex/latex/amsfonts/umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 122.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 123.
 
 
 ("C:/Program Files/MiKTeX 2.9/tex/latex/amsfonts/umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (./e3.tex
-("C:/Program Files/MiKTeX 2.9/tex/latex/listings/lstlang1.sty"
-File: lstlang1.sty 2020/03/24 1.8d listings language file
-)
+) (./ue1.tex
 LaTeX Font Info:    Font shape `TU/Roboto(0)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 39.
+(Font)              scaled to size 9.0pt on input line 38.
  [1
 
 
 {C:/Users/No-Pa/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}<./tuda_logo.p
 df>]
-<bar.png, id=50, 376.40625pt x 248.93pt>
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
+
+ []
+
+<Figure_1a.png, id=29, 373.395pt x 248.93pt>
+File: Figure_1a.png Graphic file (type png)
+<use Figure_1a.png>
+Package luatex.def Info: Figure_1a.png  used on input line 40.
+(luatex.def)             Requested size: 373.39409pt x 248.92938pt.
+[2<./Figure_1a.png>]
+Overfull \hbox (64.85599pt too wide) in paragraph at lines 73--74
+[][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (46.8558pt too wide) in paragraph at lines 77--78
+[][][][][][][][][][][][][][][][][][] 
+ []
+
+<Figure_1b_2.png, id=62, 379.4175pt x 248.93pt>
+File: Figure_1b_2.png Graphic file (type png)
+<use Figure_1b_2.png>
+Package luatex.def Info: Figure_1b_2.png  used on input line 99.
+(luatex.def)             Requested size: 379.41656pt x 248.92938pt.
+[3<./Figure_1b_2.png>]
+<Figure_1b_3.png, id=94, 373.395pt x 248.93pt>
+File: Figure_1b_3.png Graphic file (type png)
+<use Figure_1b_3.png>
+Package luatex.def Info: Figure_1b_3.png  used on input line 108.
+(luatex.def)             Requested size: 373.39409pt x 248.92938pt.
+<Figure_1b_4.png, id=95, 373.395pt x 248.93pt>
+File: Figure_1b_4.png Graphic file (type png)
+<use Figure_1b_4.png>
+Package luatex.def Info: Figure_1b_4.png  used on input line 117.
+(luatex.def)             Requested size: 373.39409pt x 248.92938pt.
+ [4<./Figure_1b_3.png>] [5<./Figure_1b_4.png>] [6]
+[7]
+Overfull \hbox (27.85587pt too wide) in paragraph at lines 296--297
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[8]
+<Figure_1d.png, id=290, 373.395pt x 248.93pt>
+File: Figure_1d.png Graphic file (type png)
+<use Figure_1d.png>
+Package luatex.def Info: Figure_1d.png  used on input line 323.
+(luatex.def)             Requested size: 373.39409pt x 248.92938pt.
+ [9<./Figure_1d.png>]
+Overfull \hbox (3.85562pt too wide) in paragraph at lines 386--387
+[][][][][][][][][][][][][][][][][][] 
+ []
+
+[10]
+Overfull \hbox (9.85568pt too wide) in paragraph at lines 419--421
+[][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (33.85593pt too wide) in paragraph at lines 426--428
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (15.85574pt too wide) in paragraph at lines 428--430
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[11]
+<Figure_1e.png, id=417, 373.395pt x 248.93pt>
+File: Figure_1e.png Graphic file (type png)
+<use Figure_1e.png>
+Package luatex.def Info: Figure_1e.png  used on input line 447.
+(luatex.def)             Requested size: 373.39409pt x 248.92938pt.
+ [12<./Figure_1e.png>]
+Overfull \hbox (3.85562pt too wide) in paragraph at lines 485--486
+[][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (3.85562pt too wide) in paragraph at lines 516--517
+[][][][][][][][][][][][][][][][][][] 
+ []
+
+[13]
+Overfull \hbox (45.85605pt too wide) in paragraph at lines 556--558
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+
+ []
+
+
+Overfull \hbox (57.85617pt too wide) in paragraph at lines 562--565
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[14]) [15] (./e3.tex
+("C:/Program Files/MiKTeX 2.9/tex/latex/listings/lstlang1.sty"
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+<bar.png, id=576, 376.40625pt x 248.93pt>
 File: bar.png Graphic file (type png)
 <use bar.png>
 Package luatex.def Info: bar.png  used on input line 44.
 (luatex.def)             Requested size: 376.40532pt x 248.92938pt.
-
+ [16]
 Overfull \hbox (51.85611pt too wide) in paragraph at lines 57--58
 [][][][][][][][][][][][][][][][][][][] 
  []
 
-<2dprojectionPCA.png, id=51, 371.3875pt x 248.93pt>
+<2dprojectionPCA.png, id=614, 371.3875pt x 248.93pt>
 File: 2dprojectionPCA.png Graphic file (type png)
 <use 2dprojectionPCA.png>
 Package luatex.def Info: 2dprojectionPCA.png  used on input line 62.
 (luatex.def)             Requested size: 371.38658pt x 248.92938pt.
-[2<./bar.png>] [3<./2dprojectionPCA.png>] [4]
+[17<./bar.png>] [18<./2dprojectionPCA.png>] [19]
 Underfull \hbox (badness 10000) in paragraph at lines 137--138
 
  []
 
-) [5]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 127.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 127.
+) [20]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 131.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 131.
  (./gesamt.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 127.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 127.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 131.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 131.
 Package rerunfilecheck Info: File `gesamt.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 127.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 131.
 )
 
 Here is how much of LuaTeX's memory you used:
- 35413 strings out of 480885
+ 35985 strings out of 480885
  100000,1648299 words of node,token memory allocated
  2715 words of node memory still in use:
    62 hlist, 6 vlist, 33 rule, 11 disc, 7 local_par, 4 dir, 36 glue, 27 kern, 7 
 penalty, 2 sub_mlist, 79 glyph, 49 attribute, 80 glue_spec, 35 attribute_list, 2
  write, 4 pdf_colorstack nodes
-   avail lists: 1:2,2:2310,3:168,4:19,5:636,6:80,7:4121,8:53,9:1192,10:9,11:189
- 51754 multiletter control sequences out of 65536+200000
+   avail lists: 1:2,2:4593,3:199,4:37,5:955,6:90,7:4760,8:81,9:2432,10:9,11:189
+ 51803 multiletter control sequences out of 65536+200000
  126 fonts using 18603683 bytes
- 79i,21n,124p,10127b,1459s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 79i,21n,124p,10127b,1246s stack positions out of 5000i,500n,10000p,200000b,50000s
 <//?/c:/users/no-pa/appdata/roaming/miktex/2.9/fonts/opentype/public/xcharter/xc
 harter-bold.otf><//?/c:/users/no-pa/appdata/roaming/miktex/2.9/fonts/opentype/pu
 blic/xcharter/xcharter-italic.otf><//?/c:/users/no-pa/appdata/roaming/miktex/2.9
@@ -2275,10 +2370,11 @@ KTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/f
 onts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
 /public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
 fonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmsy7.pfb>
-Output written on gesamt.pdf (5 pages, 669037 bytes).
+cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm1
+0.pfb>
+Output written on gesamt.pdf (20 pages, 863201 bytes).
 
-PDF statistics: 215 PDF objects out of 1000 (max. 8388607)
- 95 named destinations out of 1000 (max. 131072)
- 64 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 833 PDF objects out of 1000 (max. 8388607)
+ 589 named destinations out of 1000 (max. 131072)
+ 184 words of extra memory for PDF output out of 10000 (max. 100000000)
 
