@@ -446,8 +446,9 @@ $0.5595070674582804$.
 \begin{center}
 \includegraphics{Figure_1e.png}
 \end{center}
-\item 
+\item From a statisticians point of view SE features can be interpreted as a transformation with Gaussians. $\alpha$ is the mean and $\beta^{-1}$ is the variance. We take an observation $X_i$ and get for $k=20$ $20$ columns. For each column $j$ we calculate the value of the Gaussian density( not exactly the Gaussian density, since there is missing a term in front of exp) with variance $\beta^{-1}$ and mean $\alpha_j$. If $\alpha_j$ for column $j$ is far away from $X_i$ then this entry in the column will not have big effect on our prediction since it is close to zero. That is also the reason why $\alpha_j$ runs from $-1$ to $1$, since all of our data are from this interval. 
 \end{enumerate}
+Code snippets for 1e):
 \begin{lstlisting}
 def gaussian_density_function(mu, sigma, x):
     c1 = 1 / np.sqrt(2*np.pi * sigma)
@@ -579,31 +580,89 @@ def feature_mapping(X,k, beta):
     log_likehood_bayesian_SE(PHI, y_train, X, y_test, x, g)
 \end{lstlisting}
 \end{subtask}
-\end{task}
-
-\begin{task}{Statistics Refresher}
 \begin{subtask}
-Solution
-\end{subtask}
-\begin{subtask}
-Solution
-\end{subtask}
-\begin{subtask}
-Solution
-\end{subtask}
-\end{task}
-
-\begin{task}{Optimization and Information Theory}
-\begin{subtask}
-Solution
-\end{subtask}
-\begin{subtask}
-Solution
-\end{subtask}
-\begin{subtask}
-Solution
-\end{subtask}
-\begin{subtask}
-Solution
+\begin{enumerate}
+\item The difference between the marginal likelihood $p(y | X)$ and the likelihood $p(y |  X,w)$ is that the marginal likelihood does not depend on $w$. We do not have to assume any distribution on $w$.
+\item For each $\beta$, report RMSE, average log-likehood of the train and test data and the log-marginal likelihood.
+\begin{enumerate}
+\item $\beta$ = 1
+\begin{enumerate}
+\item RMSE of the train data: 0.09057345725244549. RMSE of the test data: 0.10867908746213598
+\item Average log-likelihood of the train data: 0.9608029250737622. Average log-likelihood of the test data: 0.8002394451718441
+\item log-marginal likelihood on the train data: 24.045413450553077
+\end{enumerate}
+\item $\beta$ = 10
+\begin{enumerate}
+\item RMSE of the train data: 0.08160941530998907. RMSE of the test data: 0.14341009681107458
+\item Average log-likelihood of the train data: 1.013494830677245. Average log-likelihood of the test data: 0.5595070674582804
+\item log-marginal likelihood on the train data: 11.632969636668967
+\end{enumerate}
+\item $\beta$ = 100
+\begin{enumerate}
+\item RMSE of the train data: 0.07011271637816664. RMSE of the test data: 1.0488486795792595
+\item Average log-likelihood of the train data: 1.041261156525514. Average log-likelihood of the test data: -0.5288965833585361
+\item log-marginal likelihood on the train data: -21.90536066926914
+\end{enumerate}
+\end{enumerate}
+\item For each $\beta$, include a single plot that shows the training data as black dots, the mean of the predictive distribution as blue line and 1,2,3 standard deviations of the predictive distribution in shades of blue.
+\begin{enumerate}
+\item $\beta$ = 1
+\begin{center}
+\includegraphics{Figure_1f_1.png}
+\end{center}
+\item $\beta$ = 10
+\begin{center}
+\includegraphics{Figure_1f_10.png}
+\end{center}
+\item $\beta$ = 100
+\begin{center}
+\includegraphics{Figure_1f_100.png}
+\end{center}
+\end{enumerate}
+\item Using the log-marginal likelihood as a score function $\beta=1$ is the best value, since we wan't to maximize the log-marginal likelihood. We wan't to maximize the log-marginal likelihood, since we want that the probability of predicting $y$ under the assumption that $X$ is given is high. 
+\item We observe that the average train log-likelihood is for $\beta=100$ better then for $\beta=1$ but the log-marginal likelihood is for $\beta=1$ is much greater then for $\beta=100$. If we look now on the average test log-likelihood, one can see that the average test log-likelihood is better for $\beta=1$ then for $\beta=100$. Hence the log-marginal likelihood is a better score function for the training data to perform grid search, since the $\beta$ we decide will perform in general better for the test set. 
+\end{enumerate}
+Code snippets for 1f).
+\begin{lstlisting}
+#1f
+    beta_all = [1,10,100]
+    for beta in beta_all:
+        g=0 # paramter for plotting
+        k = 20
+        print("beta: ", beta)
+        PHI = feature_mapping(X_train,k, beta) # vorsicht! samples in den zeilen
+    
+        PHI_test = feature_mapping(X_test,k, beta)
+    
+        
+        #Report the RMSE of the train and test data under your Bayesian model with SE features
+        
+        print("RMSE 1f train: ", rmse_bayesian(PHI ,y_train, PHI, y_train))
+        
+        print("RMSE 1f test: ",rmse_bayesian(PHI, y_train, PHI_test, y_test))
+        
+        #Report the average log-likelihood of the train and test data under your Bayesian model.
+        
+        
+        print("Average Log likehood train: ",log_likehood_bayesian_SE(PHI, y_train, 
+        PHI, y_train, X_train))
+        
+        print("Average Log likehood test: ",log_likehood_bayesian_SE(PHI, y_train, 
+        PHI_test, y_test, X_test))
+        
+        # Report log-marginal likehood
+        
+        print("log_marginal_likehood train:", log_marginal_likelihood(PHI, y_train))
+        
+        
+        x = np.linspace(-1,1,100) # 100 linearly spaced numbers
+        
+        X = feature_mapping(x,k, beta)
+        
+        g=1
+        
+        log_likehood_bayesian_SE(PHI, y_train, X, y_test, x, g)
+        plt.show()
+\end{lstlisting}
 \end{subtask}
 \end{task}
